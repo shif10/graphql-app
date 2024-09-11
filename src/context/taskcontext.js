@@ -20,7 +20,7 @@ export const TaskProvider = ({ children }) => {
 
 
         console.log("tasks", task);
-    }, [data])
+    }, [data, task])
 
     console.log("data ares", data)
     return (
