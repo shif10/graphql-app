@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ApolloProvider, useQuery, useMutation, gql } from '@apollo/client';
 import client from './ApolloClient';
 import { TaskProvider } from './context/taskcontext';
-import { Button, TextField, Grid, Card, CardContent, CardActions, Typography, List, ListItem, ListItemText } from '@mui/material';
+import { Button, TextField, Grid, Card, CardContent, CardActions, Typography, List } from '@mui/material';
 
 // GraphQL queries and mutations
 const GET_TASKS = gql`
