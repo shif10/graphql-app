@@ -14,13 +14,13 @@ export const TaskProvider = ({ children }) => {
     }
 }  `
     const { data } = useQuery(GET_TASKS)
-    useEffect(() => {
+    // useEffect(() => {
 
-        setTask(data)
+    //     setTask(data)
 
 
-        console.log("tasks", task);
-    }, [data, task])
+    //     console.log("tasks", task);
+    // }, [data, task])
 
     console.log("data ares", data)
     return (
