@@ -13,7 +13,7 @@ export const TaskProvider = ({ children }) => {
         id,title,description
     }
 }  `
-    const { error, loading, data } = useQuery(GET_TASKS)
+    const { data } = useQuery(GET_TASKS)
     useEffect(() => {
 
         setTask(data)
